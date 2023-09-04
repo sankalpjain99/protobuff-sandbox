@@ -1,4 +1,4 @@
-package com.sankalp;
+package com.sankalp.protobufsandbox;
 
 import io.micronaut.runtime.Micronaut;
 

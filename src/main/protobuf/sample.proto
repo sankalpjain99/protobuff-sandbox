@@ -1,0 +1,8 @@
+package com.sankalp;
+
+option java_package = "com.sankalp.protobuf";
+option java_outer_classname = "SampleProto";
+
+message SampleRequest {
+    required string text = 1;
+}
