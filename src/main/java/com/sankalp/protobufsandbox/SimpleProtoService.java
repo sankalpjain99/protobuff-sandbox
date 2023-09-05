@@ -14,6 +14,8 @@ public class SimpleProtoService {
     public void init() {
         SampleRequest request = SampleRequest.newBuilder()
                 .setText("Hello World")
+                .setNumber(1)
+                .setSecondNumber(2)
                 .build();
         log.info("Class Initialized with message: {}", request.getText());
     }
